@@ -1,0 +1,45 @@
+/run/initialize
+/gps/position 0. 0. 16.2 mm
+/gps/energy 0. keV
+/gps/pos/type Point
+/gps/ang/type iso
+/gps/particle ion
+#Cobalt-60
+#/gps/ion 27 60 0 0
+#Cesium-137
+#/gps/ion 55 137 0 0
+#Mercuri-203
+#/gps/ion 80 203 0 0
+#Zinc-65
+#/gps/ion 30 65 0 0
+#Sodium-22
+#/gps/ion 11 22 0 0
+#Sodium-22
+#/gps/ion 11 22 0 0
+#Scandium-46
+#/gps/ion 21 46 0 0
+#Niobium-94
+#/gps/ion 41 94 0 0
+#Europium-152
+#/gps/ion 63 152 0 0
+#Cobalt-57
+#/gps/ion 27 57 0 0
+#Yitrium-88
+#/gps/ion 39 88 0 0
+#Sodium-24
+#/gps/ion 11 24 0 0
+#Barium-133
+#/gps/ion 56 133 0 0
+#Cerium-139
+#/gps/ion 58 139 0 0
+#Tin-113
+#/gps/ion 50 113 0 0
+#Manganese-54
+#/gps/ion 25 54 0 0
+#Chlorine-38
+#/gps/ion 17 38 0 0
+/control/verbose 2
+/run/verbose 2
+#/run/beamOn 13014172
+/run/beamOn 1000
+

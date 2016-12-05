@@ -1,0 +1,29 @@
+#/gps/particle gamma
+#/gps/particle e-
+#/gps/particle alpha
+/gps/particle neutron
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 0. mm
+/gps/ang/type iso
+#/gps/ang/mintheta 16.6334 deg
+#/gps/ang/maxtheta 360.0 deg
+/gps/energy 5500. keV
+#/gps/energy 22500. keV
+/gps/number 20
+/vis/open HepRepFile
+/vis/drawVolume
+/vis/scene/add/trajectories
+/vis/scene/add/hits
+/run/beamOn 1
+#/vis/open DAWNFILE
+#/vis/scene/create
+#/vis/scene/add/volume
+#/vis/sceneHandler/attach
+#/vis/geometry/set/forceWireframe ! -1 true
+#/vis/geometry/set/forceWireframe logicEcal ! false
+#/vis/geometry/set/forceWireframe logicEcal1 ! false
+#/vis/geometry/set/forceWireframe tracker_log ! false
+#/vis/geometry/set/forceWireframe tracker_logcr1 ! false
+#/vis/geometry/set/forceWireframe tracker_logcr2 ! false
+#/vis/viewer/flush
+#/run/beamOn 1

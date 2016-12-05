@@ -1,0 +1,29 @@
+/run/initialize
+#/gps/particle ion
+#/gps/particle gamma
+/gps/particle neutron
+#Cobalt-60
+#/gps/ion 27 60 0 0
+/gps/energy 5500.0 keV
+/gps/pos/type Point
+/gps/ang/type iso
+/gps/position 0. 0. 28.9 mm
+#Cesium-137
+#/gps/ion 55 137 0 0
+#Sodium-22
+/gps/ion 11 22 0 0
+#Scandium-46
+#/gps/ion 21 46 0 0
+#Niobium-94
+#/gps/ion 41 94 0 0
+#Europium-152
+#/gps/ion 63 152 0 0
+#Cobalt-57
+#/gps/ion 27 57 0 0
+#Yitrium-88
+#/gps/ion 39 88 0 0
+#Sodium-24
+#/gps/ion 11 24 0 0
+/control/verbose 2
+/run/verbose 2
+/run/beamOn 100000

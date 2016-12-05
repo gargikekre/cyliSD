@@ -1,0 +1,47 @@
+
+
+Date:05.01.2009
+
+COPY OF hexa4piSD created for including SD class.
+Configuration: Cylinder of all materials, Al cover and SD
+Source: GPS
+File: ASCII 
+
+-------------------------------------------------
+Commands to be used for creating ascii file only
+-------------------------------------------------
+
+/gps/particle gamma
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 0. mm
+/gps/ang/type iso
+/gps/energy 662. keV
+/gps/number 1
+/control/verbose 2
+/run/verbose 2
+/run/beamOn 1000000
+
+
+            8038620
+/gps/ang/mintheta 10. deg
+/gps/ang/maxtheta 360. deg
+
+------------------------------------------------
+------------------------------------------------
+Commands to be used for seeing the detector shape
+-------------------------------------------------
+
+/gps/particle gamma
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 0. mm
+/gps/ang/type iso
+/gps/ang/mintheta 3. deg
+/gps/ang/maxtheta 360. deg
+/gps/energy 662. keV
+/gps/number 100
+/vis/open HepRepFile
+/vis/drawVolume
+/vis/scene/add/trajectories
+/vis/scene/add/hits
+/run/beamOn 1
+

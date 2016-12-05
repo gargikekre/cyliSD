@@ -1,0 +1,18 @@
+#/gps/particle gamma
+#/gps/particle e-
+#/gps/particle alpha
+/gps/particle neutron
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 0. mm
+/gps/ang/type iso
+#/gps/ang/mintheta 3.6334 deg
+#/gps/ang/maxtheta 360.0 deg
+/gps/energy 5500.0 keV
+#/gps/energy 1332. keV
+#/gps/energy 1173. keV
+#/gps/energy 22500. keV
+/gps/number 1
+/control/verbose 2
+/run/verbose 2
+/run/beamOn 1000
+

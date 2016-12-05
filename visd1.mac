@@ -1,0 +1,48 @@
+# First gamma, intensity is 1 by default
+
+#/gps/source/intensity 1.
+#/gps/particle gamma
+/gps/particle neutron
+#/gps/source/add 85.
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 15.7 mm
+/gps/ang/type iso
+#/gps/ang/mintheta 2.001 deg
+#/gps/ang/maxtheta 360.0 deg
+/gps/energy 1173. keV
+#/gps/source/intensity 2
+#/gps/time
+
+
+# Second gamma, intensity is twice the intensity of the first gamma
+/gps/source/add 1.
+#/gps/source/intensity 3.
+/gps/particle gamma
+#/gps/particle neutron
+/gps/pos/type Point
+/gps/pos/centre 0. 0. 15.7 mm
+/gps/ang/type iso
+#/gps/ang/mintheta 2.001 deg
+#/gps/ang/maxtheta 360.0 deg
+/gps/energy 1332. keV
+#/gps/time
+
+
+#/gps/source/add 3.
+#/gps/particle gamma
+#/gps/source/intensity 0.62 
+#/gps/pos/type Point
+#/gps/pos/centre 0. 0. 15.7 mm
+#/gps/ang/type iso
+#/gps/energy 356.0 keV
+#/gps/time
+
+/gps/source/multiplevertex true
+#You can set the intensity of the first gamma using this line
+#/gps/source/intensity
+/gps/source/list
+/control/verbose 1
+/run/verbose 2
+/run/beamOn 100000
+
+
